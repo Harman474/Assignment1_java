@@ -92,9 +92,9 @@ public class contacts {
         return contactID;
     }
 
-    public void setcontactID(int ID) {
+    public void setcontactID(int contactID) {
         if(contactID >= 0)
-        this.contactID = ID;
+        this.contactID = contactID;
         else
             throw new IllegalArgumentException("ID must be equal or Greater to 0");
     }

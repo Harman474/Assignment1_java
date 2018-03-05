@@ -15,7 +15,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="900.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/9.0.1" fx:controller="views.NewcontactController">
+<AnchorPane id="AnchorPane" blendMode="EXCLUSION" prefHeight="500.0" prefWidth="900.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="views.NewcontactController">
     <stylesheets>
         <URL value="@contacts.css" />
     </stylesheets>

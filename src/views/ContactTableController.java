@@ -48,6 +48,8 @@ public class ContactTableController implements Initializable {
       }
     /**
      * Initializes the controller class.
+     * @param url
+     * @param rb
      */
     @Override
     public void initialize(URL url, ResourceBundle rb) {
@@ -67,7 +69,7 @@ public class ContactTableController implements Initializable {
              System.err.println(e.getMessage());       
         }
     }    
-    
+    // this will load tables from database and will show in contact table
     public void loadcontacts() throws SQLException
     {
         ObservableList<contacts> contacts = FXCollections.observableArrayList();
