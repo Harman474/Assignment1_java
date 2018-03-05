@@ -6,6 +6,7 @@
 <?import javafx.scene.control.DatePicker?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.InnerShadow?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.ColumnConstraints?>
@@ -70,4 +71,7 @@
          </padding>
       </VBox>
    </children>
+   <effect>
+      <InnerShadow choke="0.72" height="63.9" radius="27.2775" width="47.21" />
+   </effect>
 </AnchorPane>
