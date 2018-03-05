@@ -48,12 +48,12 @@
                         <Label text="Last Name" GridPane.rowIndex="1" />
                         <Label text="Birthday" GridPane.rowIndex="4" />
                         <Label text="Phone Number" GridPane.rowIndex="2" />
-                        <TextField fx:id="firstNameTextField" prefHeight="44.0" prefWidth="236.0" GridPane.columnIndex="1" />
-                        <TextField fx:id="lastNameTextField" prefHeight="43.0" prefWidth="236.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-                        <TextField fx:id="phoneNumberTextField" alignment="TOP_LEFT" prefHeight="44.0" prefWidth="236.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-                        <DatePicker fx:id="birthdayField" prefHeight="44.0" prefWidth="242.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                        <TextField fx:id="firstNameTextField" prefHeight="44.0" prefWidth="236.0" promptText="First Name" GridPane.columnIndex="1" />
+                        <TextField fx:id="lastNameTextField" prefHeight="43.0" prefWidth="236.0" promptText="Last Name" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                        <TextField fx:id="phoneNumberTextField" alignment="TOP_LEFT" prefHeight="44.0" prefWidth="236.0" promptText="XXX-XXX-XXXX" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                        <DatePicker fx:id="birthdayField" prefHeight="44.0" prefWidth="242.0" promptText="mm/dd/yyyy" GridPane.columnIndex="1" GridPane.rowIndex="4" />
                         <Label text="Address" GridPane.rowIndex="3" />
-                        <TextField fx:id="addressTextField" alignment="TOP_LEFT" prefHeight="44.0" prefWidth="236.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                        <TextField fx:id="addressTextField" alignment="TOP_LEFT" prefHeight="44.0" prefWidth="236.0" promptText="Address" GridPane.columnIndex="1" GridPane.rowIndex="3" />
                      </children>
                   </GridPane>
                </children>
