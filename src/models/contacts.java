@@ -88,16 +88,15 @@ public class contacts {
         
     }
 
-    public int getcontactID() {
+    public int getContactID() {
         return contactID;
     }
 
-    public void setcontactID(int contactID) {
-        if(contactID >= 0)
+    public void setContactID(int contactID) {
         this.contactID = contactID;
-        else
-            throw new IllegalArgumentException("ID must be equal or Greater to 0");
     }
+
+
     
     
     @Override

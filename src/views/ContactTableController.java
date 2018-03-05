@@ -89,7 +89,7 @@ public class ContactTableController implements Initializable {
             while (rs.next())
                  {
                 contacts newcontacts = new contacts(rs.getString("firstName") , rs.getString("lastName"), rs.getString("phoneNumber"), rs.getString("address"),rs.getDate("birthday").toLocalDate());
-                newcontacts.setcontactID(rs.getInt("contactID"));
+                newcontacts.setContactID(rs.getInt("contactID"));
                 newcontacts.setImageFile(new File(rs.getString("imageFile")));
                 
                 contacts.add(newcontacts);
