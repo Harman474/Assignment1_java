@@ -1,5 +1,3 @@
-CREATE DATABASE contacts;
-Drop table contacts;
 USE contacts;
 Create Table contacts
 (

@@ -115,8 +115,8 @@ public class contacts {
        Connection conn = null; 
        PreparedStatement ps = null;
        try {
-           
-           conn = (Connection) DriverManager.getConnection("jdbc:mysql://LocalHost:3306/contacts","root", "");
+           // i have made changes to the databse string and made is online. am uploading again it to github as talked to you. all other code is same.
+           conn = (Connection) DriverManager.getConnection("jdbc:mysql://50.62.177.180:3306/contacts","harman474", "Galaxys3neo");
            String sql = "INSERT into contacts(firstName, lastName, phoneNumber,address, birthday,imageFile)"
                    + "Values (?,?,?,?,?,?)";
             ps = conn.prepareStatement(sql);

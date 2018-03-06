@@ -77,10 +77,10 @@ public class ContactTableController implements Initializable {
         Connection conn = null;
         Statement st = null;
         ResultSet rs = null;
-    
+            // i have made changes to the databse string and made is online. am uploading again it to github as talked to you. all other code is same.
         try
         {
-            conn = (com.mysql.jdbc.Connection) DriverManager.getConnection("jdbc:mysql://LocalHost:3306/contacts","root", "");
+            conn = (com.mysql.jdbc.Connection) DriverManager.getConnection("jdbc:mysql://50.62.177.180:3306/contacts","harman474", "Galaxys3neo");
             
             st = conn.createStatement();
             
